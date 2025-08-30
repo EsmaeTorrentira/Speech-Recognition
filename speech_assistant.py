@@ -91,7 +91,7 @@ def execute_command(command):
         sys.exit()
 
     else:
-        speak("Sorry, I don't know that command yet.")
+        speak("Sorry, I don't know that command yet or change the command.")
 
 def main():
     speak("Voice Assistant ready. Press F4 to talk to me.")
